@@ -760,17 +760,7 @@ img {
     padding-inline: 34px 32px;
     
   }
-  
-  .login-link:hover {
-    border-radius: 5px;
-    border: 2px solid #FA5959;
-    background: #FFF;
-    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20);
-  }
-  
-  
-  
-  
+      
   .hambur-menu-btn {
     display: none;
   }
@@ -784,10 +774,7 @@ img {
     color: #FA5959;
   }
   
-  .login-link:hover {
-    background-color: #FA5959;
-    color: #FFF;
-  }
+  
   
   .hero {
   }
@@ -1093,6 +1080,8 @@ img {
   .footer__form {
     display: flex;
     column-gap: 16px;
+    padding-bottom: 0;
+    align-items: center;
   }
   
   .footer__email-input {
@@ -1106,6 +1095,7 @@ img {
     padding-left: 20px;
     padding-block: 10px;
     border-radius: 5px;
+    padding-right: 113px;
     background-color: #FFF;
     border: none;
   }
@@ -1124,7 +1114,10 @@ img {
     border-radius: 5px;
     background: #FA5959;
     box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20);
-    outline: none;
+    /* outline: none; */
+    display: inline-flex;
+    content: 100%;
+    margin-top: 0;
   }
   
   .footer__form-wrap {
@@ -1138,6 +1131,7 @@ img {
     padding-block: 36px;
     display: flex;
     align-items: center;
+    margin: 0;
   }
   
   .footer__list {
@@ -1145,9 +1139,8 @@ img {
     margin: 0;
     list-style-type: none;
     display: flex;
+    flex-direction: row;
     column-gap: 48px;
-    margin-left: 65px;
-    margin-right: auto;
   }
   
   .footer__link {
@@ -1170,7 +1163,19 @@ img {
     align-items: center;
     justify-content: space-between;
   }
+
+  .lists-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 65px;
+    column-gap: 515px;
+  }
   
+  .login-link:hover {
+    background-color: #FA5959;
+    color: #FFF;
+  } 
   
 }
 
